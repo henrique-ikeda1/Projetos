@@ -22,7 +22,7 @@ As duas variáveis são multiplicadas entre si e, em seguida, multiplicadas por 
 2. Informar a potência do aparelho em números apenas;
 3. Informar a quantidade de horas de uso em números apenas;
 4. Tecle "Enter";
-5. O programa retornará a média de gasto por mês em kWh (kiloWatt-hora).
+5. O programa retornará a média de gasto por mês em kWh.
 
 # <p align="left">
   <img src="https://img.shields.io/badge/Python%203.8%2B-3776AB?logo=python&logoColor=white">
