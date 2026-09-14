@@ -17,4 +17,4 @@ else:
 valor_final = valor_compra - desconto
 # Exibição dos resultados
 print(f"Valor do desconto aplicado: R$ {desconto:.2f}")
-print(f"Valor final da compra: R$ {valor_final:.2f}")
+print(f"Valor final da compra: R$ {valor_final:.2f}"
