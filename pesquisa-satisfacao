@@ -1,2 +1,37 @@
-app.py
-README.md
+"""
+Programa desenvolvido para pesquisa de satisfação com atendimento ao cliente.
+O programa deve solicitar a nome, idade e opinião sobre o atendimento prestado (1-EXCELENTE, 2-BOM, 3-RUIM).
+A pesquisa deve ser feita com 50 entrevistados.
+Ao final, o programa deverá exibir na tela:
+a) Quantidade de respostas 'EXCELENTE'
+b) Quantidade de respostas 'RUIM'
+Realizar teste com 10 entrevistados para validar o programa.
+"""
+
+NUM_ENTREVISTADOS = 10
+
+excelente = 0
+ruim = 0
+
+for i in range(1, NUM_ENTREVISTADOS + 1):
+    print(f"\nEntrevistado {i}")
+    
+    nome = input("Digite o nome: ")
+    idade = int(input("Digite a idade: "))
+    
+    while True:
+        opiniao = int(input("Opinião sobre o atendimento (1-EXCELENTE, 2-BOM, 3-RUIM): "))
+        
+        if opiniao in (1, 2, 3):
+            break
+        else:
+            print("Opção inválida! Digite 1, 2 ou 3.")
+    
+    if opiniao == 1:
+        excelente += 1
+    elif opiniao == 3:
+        ruim += 1
+
+print("\n===== RESULTADO DA PESQUISA =====")
+print(f"Quantidade de respostas EXCELENTE: {excelente}")
+print(f"Quantidade de respostas RUIM: {ruim}")
