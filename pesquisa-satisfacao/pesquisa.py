@@ -7,7 +7,7 @@ Realizar entrevista com 10 pessoas para validar o programa.
 
 # CONSTANTE
 
-NUM_ENTREVISTADOS = 10 # Para o programa final, altere para 50
+NUM_ENTREVISTADOS = 50 # A constante NUM_ENTREVISTADOS é definida como 50, indicando o número total de entrevistados que participarão da pesquisa de satisfação.
 
 # CONTADORES
 
