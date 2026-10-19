@@ -15,7 +15,7 @@ Python.
 
 ## 📃Instruções de execução do programa
 1. Inicializar o programa;
-2. O programa não vai pedir para inserir nenhum dado, mas 
+2. O programa não vai pedir para inserir nenhum dado.
 
 # <p align="left">
   <img src="https://img.shields.io/badge/Python%203.8%2B-3776AB?logo=python&logoColor=white">
