@@ -57,7 +57,7 @@ def simular_monitoramento(quantidade_leituras=10, intervalo=5.5): # Simula o mon
         nivel_anterior = nivel  # Atualiza o nível anterior para a próxima iteração
 
         limpar_tela()  # Limpa a tela antes de mostrar a nova leitura
-        print("=== MONITORAMENTEO DO RESERVATÓRIO DE ÁGUA ===\n")
+        print("=== MONITORAMENTO DO RESERVATÓRIO DE ÁGUA ===\n")
         print(f"Leitura {leitura} de {quantidade_leituras}\n")
         mostrar_situacao(nivel)  # Exibe a situação do reservatório com a cor e mensagem apropriadas
 
